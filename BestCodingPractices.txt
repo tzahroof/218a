@@ -1,0 +1,13 @@
+General Things
+Instead of having a ton of headers included at the top of your .c file, 
+put them in the corresponding .h file for the .c you are working in. It
+makes things much cleaner
+
+If a function does not NEED to be public, make it private (static) and
+do not include a prototype for it in the header
+
+If you have a line that needs to be filled in later add a comment
+"//TODO: thingToDo" on that line
+
+Do not merge with master if you haven't done module testing/compiled everything
+

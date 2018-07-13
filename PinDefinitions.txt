@@ -1,0 +1,10 @@
+All the hardware lines that we specify will be listed here.
+Please check BEFORE you add hardware declaration that you
+are not writing over what someone else has put in. Follow
+the format below. 
+
+'File' below is the base .c file where the hardware 
+initialization is performed (like ShiftRegisterWrite.c)
+
+Port		Bit#	    File 	    Purpose
+FILL IN     FILL IN     FILL IN     FILL IN 
